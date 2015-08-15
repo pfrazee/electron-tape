@@ -42,7 +42,7 @@ etape(__dirname+'/ui-test.js', function (tape, window) {
 var etape    = require('electron-tape')
 var ipc      = require('ipc')
 
-etape(function (tape, window) {
+etape(function (tape) {
 
   tape('send/receive data', function (t) {
     // send 1, 2, 3
