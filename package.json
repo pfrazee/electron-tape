@@ -1,0 +1,27 @@
+{
+  "name": "electron-tape",
+  "version": "1.0.0",
+  "description": "Tape testing harness for electron apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfraze/electron-tape.git"
+  },
+  "keywords": [
+    "tape",
+    "electron"
+  ],
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfraze/electron-tape/issues"
+  },
+  "homepage": "https://github.com/pfraze/electron-tape#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.28.2",
+    "tape": "~4.0.0"
+  }
+}
